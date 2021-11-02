@@ -1,0 +1,110 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin: 0px;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+    background: url("C:\\Users\\flami_000\\Documents\\Final Photo Website\\IMG_9798.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    display: inline;
+    padding:0px;
+    margin: 0px;
+    float: right;
+}
+
+li p:hover {
+    color:grey;
+}
+
+ul li {
+    margin-right: 25px;
+    display: inline;
+    float: right;
+}
+
+nav {
+    background-color: black;
+    overflow: hidden;
+    color: white;
+    display: inline-block;
+    width: 100%;
+}
+
+
+#name {
+    display: inline;
+    float: left;
+    color: white;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+
+#name p {
+    margin: 0;
+    padding: 0px;
+}
+
+#tag {
+    vertical-align: center;
+}
+
+#crtag {
+    padding-right: 10px;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+
+#socialmedia {
+    display: inline;
+    margin: 0 auto;
+    float:none;
+    margin-left: 20px;
+}
+
+#socialmedia a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+#socialmedia img {
+    display: inline;
+    margin-top: 10px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#title {
+    margin: 0;
+    font-size: 75px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.post {
+    display: block;
+    margin: 0 auto;
+}
