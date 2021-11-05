@@ -10,7 +10,9 @@
                                         photography" />
     <meta name="keywords" content="Photography, photographer" />
     <link rel="icon" type="image/png" href="Camera-icon.png" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="../CSS/gallerystyle.css" />
     <script type="text/javascript" src="../Javascript/galleryjs.js"></script>
     <title>Jason Peacher-Ton Photography</title>
@@ -128,18 +130,18 @@
     <a href="#top" id="top">Back to Top</a>
 
     <!--Modal lightbox-->
-    <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closemodal()">&times;</span>
-        <div class="modal-content" onclick="closemodal()">
-            <div id="display">
-                <img id="image">
-                <div id="description">
-                    <div id="descriptiondiv" style="margin: 20px">
-                    </div>
+    <div id="myModal" class="modal"></div>
+    <span id="close" class="close cursor" onclick="closemodal()">&times;</span>
+    <div id="content" class="modal-content" onclick="closemodal()">
+        <div id="display">
+            <img id="image">
+            <div id="description">
+                <div id="descriptiondiv" style="margin: 20px">
                 </div>
             </div>
         </div>
     </div>
+    
 
     <!-- <div id="1desc">
         <h1>Rainier from afar</h1>

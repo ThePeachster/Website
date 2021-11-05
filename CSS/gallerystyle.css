@@ -1,9 +1,9 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'EB Garamond', serif;
     font-size: 15px;
     margin: 0px;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -14,7 +14,7 @@ body {
 /* Nav Bar Section */
 nav {
     background-color: black;
-    color: white;
+    color: black;
     position: fixed;
     top:0;
     width: 100%;
@@ -90,7 +90,6 @@ nav ul li {
 
 #socialmedia a:visited {
     text-decoration: none;
-    color: black;
 }
 
 #socialmedia img {
@@ -154,15 +153,28 @@ nav ul li {
 
 .photos {
     margin-top: 10px;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 2;
+    column-count: 3;
+    column-gap: 10px;
 }
 
 .photos img {
     width: 100% !important;
     height: auto !important; 
 }
+
+.photos img:hover {
+    filter: brightness(70%);
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
 .tag {
     display: block;
     font-size: 80px;
@@ -175,29 +187,32 @@ nav ul li {
 .modal {
     display: none;
     position: fixed;
-    z-index: 1;
-    padding-top: 100px;
+    z-index: 0;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
     overflow: auto;
     background-color: black;
+    filter:opacity(60%);
   }
   
   /* Modal Content */
   .modal-content {
-    position: relative;
+    z-index: 1000;
+    position: fixed;
     margin: auto;
     padding: 0;
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
+    filter:opacity(100%);
   }
   
   /* The Close Button */
   .close {
+    display: none;
     color: white;
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 25px;
     font-size: 35px;
@@ -212,23 +227,24 @@ nav ul li {
   }
 
   #display {
-    position: relative;
+    display: flex;
+    justify-content: center;
     height: 100%;
+    filter:opacity(100%);
   }
 
   #image {
-    margin: 0;
-    margin-right: 20px;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
+    display: block;
+    margin: auto;
+    filter:opacity(100%);
     max-width: 70%;
     height: auto;
-    max-height: 1100px;
+    max-height: 90%;
     width: auto;
   }
 
   #description {
       max-width: 30%;
       float: right;
+      filter:opacity(100%);
   }
