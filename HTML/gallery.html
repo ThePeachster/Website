@@ -9,11 +9,11 @@
     <meta name="description" content="Personal website for Jason Peacher-Ton that hosts his
                                         photography" />
     <meta name="keywords" content="Photography, photographer" />
-    <link rel="icon" type="image/png" href="Camera-icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="../CSS/gallerystyle.css" />
+    <link rel="stylesheet" href="../CSS/lightbox.css"/>
     <script type="text/javascript" src="../Javascript/galleryjs.js"></script>
     <title>Jason Peacher-Ton Photography</title>
 </head>
@@ -74,12 +74,12 @@
 
     <a name="landscape" class="tag">Landscape</a>
     <div class="photos">
-        <a href="#"><img id="1" src="../Gallery/Landscape/26831603717_292ed1b6f0_o.jpg" onclick="openmodal(); openphoto(1);"></a>
-        <a href="#"><img id="2"  src="../Gallery/Landscape/28651900117_a140cda210_o.jpg" onclick="openmodal(); openphoto(2);"></a>
-        <a href="#"><img id="3"  src="../Gallery/Landscape/35018369053_eb833b3b13_o (2).jpg" onclick="openmodal(); openphoto(3);"></a>
+        <a href="../Gallery/Landscape/26831603717_292ed1b6f0_o.jpg" data-lightbox="image-1" data-title="working?"><img src="../Gallery/Landscape/26831603717_292ed1b6f0_o.jpg" /></a>
+        <a href="../Gallery/Landscape/28651900117_a140cda210_o.jpg" data-lightbox="image-2" data-title="working?"><img src="../Gallery/Landscape/28651900117_a140cda210_o.jpg" /></a>
+        <a href="#"><img id="3"  src="../Gallery/Landscape/35018369053_eb833b3b13_o (2).jpg" data-lightbox="image-3" data-title="working?"></a>
         <a href="#"><img id="4"  src="../Gallery/Landscape/IMG_4589-2.jpg" onclick="openmodal(); openphoto(4);"></a>
         <a href="#"><img id="5"  src="../Gallery/Landscape/IMG_5134ps2.jpg" onclick="openmodal(); openphoto(5);"></a>
-        <a href="#"><img id="6"  src="../Gallery/Landscape/IMG_6704.jpg" onclick="openmodal(); openphoto(6);"></a>
+        <!-- <a href="#"><img id="6"  src="../Gallery/Landscape/IMG_6704.jpg" onclick="openmodal(); openphoto(6);"></a>
         <a href="#"><img id="7"  src="../Gallery/Landscape/IMG_6916-2.jpg" onclick="openmodal(); openphoto(7);"></a>
         <a href="#"><img id="8"  src="../Gallery/Landscape/IMG_7703.jpg" onclick="openmodal(); openphoto(8);"></a>
         <a href="#"><img id="9"  src="../Gallery/Landscape/IMG_7756.jpg" onclick="openmodal(); openphoto(9);"></a>
@@ -99,33 +99,9 @@
         <a href="#"><img id="23"  src="../Gallery/Landscape/IMG_9357.jpg" onclick="openmodal(); openphoto(23);"></a>
         <a href="#"><img id="24"  src="../Gallery/Landscape/IMG_9509.png" onclick="openmodal(); openphoto(24);"></a>
         <a href="#"><img id="26"  src="../Gallery/Landscape/IMG_9610.jpg" onclick="openmodal(); openphoto(26);"></a>
-        <a href="#"><img id="27"  src="../Gallery/Landscape/thisOne.jpg" onclick="openmodal(); openphoto(27);"></a>
+        <a href="#"><img id="27"  src="../Gallery/Landscape/thisOne.jpg" onclick="openmodal(); openphoto(27);"></a> -->
     </div>
 
-    <a name="travel" class="tag">Travel</a>
-    <div class="photos">
-        <a href="#"><img id="28" src="../Gallery/Travel/24235643867_834b97c548_o.jpg" onclick="openmodal(); openphoto(28);"></a>
-        <a href="#"><img id="30"  src="../Gallery/Travel/IMG_0951.jpg" onclick="openmodal(); openphoto(30);"></a>
-        <a href="#"><img id="31"  src="../Gallery/Travel/IMG_1098.jpg" onclick="openmodal(); openphoto(31);"></a>
-        <a href="#"><img id="32"  src="../Gallery/Travel/IMG_1124.jpg" onclick="openmodal(); openphoto(32);"></a>
-        <a href="#"><img id="33"  src="../Gallery/Travel/IMG_1187.jpg" onclick="openmodal(); openphoto(33);"></a>
-        <a href="#"><img id="34"  src="../Gallery/Travel/IMG_1274.jpg" onclick="openmodal(); openphoto(34);"></a>
-        <a href="#"><img id="35"  src="../Gallery/Travel/IMG_3474-3.jpg" onclick="openmodal(); openphoto(35);"></a>
-        <a href="#"><img id="36"  src="../Gallery/Travel/IMG_3167.jpg" onclick="openmodal(); openphoto(36);"></a>
-        <a href="#"><img id="37"  src="../Gallery/Travel/IMG_4115.jpg" onclick="openmodal(); openphoto(37);"></a>
-        <a href="#"><img id="25"  src="../Gallery/Travel/IMG_9814.jpg" onclick="openmodal(); openphoto(25);"></a>
-    </div>
-
-    <a name="city" class="tag">City</a>
-    <div class="photos">
-        <a href="#"><img id="38"  src="../Gallery/City/26748632927_e0e13e8b47_o.jpg" onclick="openmodal(); openphoto(38);"></a>
-        <a href="#"><img id="39"  src="../Gallery/City/39444742101_43c39a1a3d_o (1).jpg" onclick="openmodal(); openphoto(39);"></a>
-        <a href="#"><img id="40"  src="../Gallery/City/IMG_2647.jpg" onclick="openmodal(); openphoto(40);"></a>
-        <a href="#"><img id="41"  src="../Gallery/City/IMG_6961-2.jpg" onclick="openmodal(); openphoto(41);"></a>
-        <a href="#"><img id="42"  src="../Gallery/City/IMG_0024.jpg" onclick="openmodal(); openphoto(42);"></a>
-        <a href="#"><img id="43"  src="../Gallery/City/IMG_0934.jpg" onclick="openmodal(); openphoto(43);"></a>
-        <a href="#"><img id="44"  src="../Gallery/City/IMG_6942.jpg" onclick="openmodal(); openphoto(44);"></a>
-    </div>
 
     <a href="#top" id="top">Back to Top</a>
 
@@ -142,6 +118,7 @@
         </div>
     </div>
     
+    <script src="../Javascript/lightbox-plus-jquery.min.js"></script>
 
     <!-- <div id="1desc">
         <h1>Rainier from afar</h1>
