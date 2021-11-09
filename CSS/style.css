@@ -33,7 +33,7 @@ body {
     background-repeat: none;
     opacity: 0;
     z-index: -1;
-    filter: brightness(80%);
+    filter: brightness(90%);
     /* Make animation longer */
     animation: imageAnimation 36s linear infinite 0s; 
 }
@@ -129,10 +129,10 @@ nav {
 
 nav #pages {
     list-style-type: none;
-    display: inline;
     padding:0px;
     margin: 0px;
     float: right;
+    display: inline-block
 }
 
 #pages a {
@@ -157,36 +157,30 @@ nav #pages {
 }
 
 #name {
-    display: inline;
-    float: left;
+    display: inline-block;
+    text-align: center;
     color: white;
-    margin-top: 5px;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-top: 10px;
+    width: auto;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #name p {
     margin: 0;
-    padding: 0px;
+    float: none;
 }
 
 #tag {
     vertical-align: center;
 }
 
-#crtag {
-    padding-right: 10px;
-    font-size: 10px;
-    color: white;
-    position: absolute;
-    bottom:0;
-    right:0;
-}
-
 #socialmedia {
-    display: inline;
+    display: inline-block;
     margin: 0 auto;
-    float:none;
+    float:left;
     margin-left: 20px;
 }
 

@@ -56,73 +56,80 @@
         <ul>
     </nav>
 
-    <div id="select">
-        <h1 id="gallery">Gallery</h1>
-        <a name="top" id="hidden">hidden</a>
-        <ul id="options">
-            <li>
-                <a href="#landscape">Landscape</a>
-            </li>
-            <li>
-                <a href="#travel">Travel</a>
-            </li>
-            <li>
-                <a href="#city">City</a>
-            </li>
+    <div id="header">
+        <header>
+            Gallery
+        </header>
+    </div>
+    <div id="gallerynav">
+        <ul id="Galleryselection">
+            <li>Landscape</li>
+            <li>City</li>
+            <li>Travel</li>
+            <li>Astrophotography</li>
+            <li>Street</li>
+            <li> | </li>
+            <li>National Parks</li>
+            <li> | </li>
+            <li>My Favorites</li>
         </ul>
     </div>
-
-    <a name="landscape" class="tag">Landscape</a>
-    <div class="photos">
-        <a href="../Gallery/Landscape/26831603717_292ed1b6f0_o.jpg" data-lightbox="image-1" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/Landscape/26831603717_292ed1b6f0_o.jpg" /></a>
-        <a href="../Gallery/Landscape/35018369053_eb833b3b13_o (2).jpg" data-lightbox="image-2" data-title="working?"><img src="../Gallery/Landscape/35018369053_eb833b3b13_o (2).jpg" /></a>
-        <a href="../Gallery/Landscape/_O7A6931.jpg" data-lightbox="image-3" data-title="working?"><img src="../Gallery/Landscape/_O7A6931.jpg" /></a>
-        <a href="../Gallery/Landscape/_O7A6975.jpg" data-lightbox="image-4" data-title="working?"><img src="../Gallery/Landscape/_O7A6975.jpg" /></a>
-        <a href="../Gallery/Landscape/_O7A7597.jpg" data-lightbox="image-5" data-title="working?"><img src="../Gallery/Landscape/_O7A7597.jpg" /></a>
-        <a href="../Gallery/Landscape/_O7A9538.jpg" data-lightbox="image-6" data-title="working?"><img src="../Gallery/Landscape/_O7A9538.jpg" /></a>
-        <a href="../Gallery/Landscape/_O7A9797(Better).jpg" data-lightbox="image-7" data-title="working?"><img src="../Gallery/Landscape/_O7A9797(Better).jpg" /></a>
-        <a href="../Gallery/Landscape/35733919030_35055379b9_o.jpg" data-lightbox="image-8" data-title="working?"><img src="../Gallery/Landscape/35733919030_35055379b9_o.jpg" /></a>
-        <a href="../Gallery/Landscape/IMG_0204.jpg" data-lightbox="image-9" data-title="working?"><img src="../Gallery/Landscape/IMG_0204.jpg" /></a>
-        <a href="../Gallery/Landscape/IMG_5134ps2.jpg" data-lightbox="image-10" data-title="working?"><img src="../Gallery/Landscape/IMG_5134ps2.jpg" /></a>
-        <a href="../Gallery/Landscape/IMG_6704.jpg" data-lightbox="image-11" data-title="working?"><img src="../Gallery/Landscape/IMG_6704.jpg" /></a>
-        <a href="../Gallery/Landscape/Rainier.jpg" data-lightbox="image-12" data-title="working?"><img src="../Gallery/Landscape/Rainier.jpg" /></a>
-        <a href="../Gallery/Landscape/_O7A7199.jpg" data-lightbox="image-13" data-title="working?"><img src="../Gallery/Landscape/_O7A7199.jpg" /></a>
-        <a href="../Gallery/Landscape/IMG_8267-3.jpg" data-lightbox="image-14" data-title="working?"><img src="../Gallery/Landscape/IMG_8267-3.jpg" /></a>
-        <a href="../Gallery/Landscape/IMG_9202.jpg" data-lightbox="image-15" data-title="working?"><img src="../Gallery/Landscape/IMG_9202.jpg" /></a>
-        <a href="../Gallery/Landscape/IMG_9798.jpg" data-lightbox="image-16" data-title="working?"><img src="../Gallery/Landscape/IMG_9798.jpg" /></a>
-        <a href="../Gallery/Landscape/IMG_9509.png" data-lightbox="image-17" data-title="working?"><img src="../Gallery/Landscape/IMG_9509.png" /></a>
-        <a href="../Gallery/Landscape/IMG_9814.jpg" data-lightbox="image-18" data-title="working?"><img src="../Gallery/Landscape/IMG_9814.jpg" /></a>
-        <a href="../Gallery/Landscape/thisOne.jpg" data-lightbox="image-19" data-title="working?"><img src="../Gallery/Landscape/thisOne.jpg" /></a>
-    </div>
-
-
-    <a href="#top" id="top">Back to Top</a>
-
-    <!--Modal lightbox-->
-    <div id="myModal" class="modal"></div>
-    <span id="close" class="close cursor" onclick="closemodal()">&times;</span>
-    <div id="content" class="modal-content" onclick="closemodal()">
-        <div id="display">
-            <img id="image">
-            <div id="description">
-                <div id="descriptiondiv" style="margin: 20px">
-                </div>
-            </div>
+        <!-- Make sure all photos are JPG
+            Update captions!
+            Make selectable grouping
+            Make mobile accessible -->
+    <section class="gallery">
+        <div class="photos">
+            <a href="../Gallery/Landscape/26831603717_292ed1b6f0_o.jpg" data-lightbox="image-1" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/Landscape/26831603717_292ed1b6f0_o.jpg" /></a>
+            <a href="../Gallery/Landscape/35018369053_eb833b3b13_o (2).jpg" data-lightbox="image-2" data-title="Mt. Si Sunrise | North Bend, WA"><img src="../Gallery/Landscape/35018369053_eb833b3b13_o (2).jpg" /></a>
+            <a href="../Gallery/Landscape/_O7A6931.jpg" data-lightbox="image-3" data-title="Meteor Shower | Mt. Rainier National Park"><img src="../Gallery/Landscape/_O7A6931.jpg" /></a>
+            <a href="../Gallery/Landscape/_O7A6975.jpg" data-lightbox="image-4" data-title="working?"><img src="../Gallery/Landscape/_O7A6975.jpg" /></a>
+            <a href="../Gallery/Landscape/_O7A7597.jpg" data-lightbox="image-5" data-title="working?"><img src="../Gallery/Landscape/_O7A7597.jpg" /></a>
+            <a href="../Gallery/Landscape/_O7A9538.jpg" data-lightbox="image-6" data-title="working?"><img src="../Gallery/Landscape/_O7A9538.jpg" /></a>
+            <a href="../Gallery/Landscape/_O7A9797(Better).jpg" data-lightbox="image-7" data-title="working?"><img src="../Gallery/Landscape/_O7A9797(Better).jpg" /></a>
+            <a href="../Gallery/Landscape/35956194682_e557c9bf9b_o.jpg" data-lightbox="image-8" data-title="working?"><img src="../Gallery/Landscape/35956194682_e557c9bf9b_o.jpg" /></a>
+            <a href="../Gallery/Landscape/IMG_0204.jpg" data-lightbox="image-9" data-title="working?"><img src="../Gallery/Landscape/IMG_0204.jpg" /></a>
+            <a href="../Gallery/Landscape/IMG_5134ps2.jpg" data-lightbox="image-10" data-title="working?"><img src="../Gallery/Landscape/IMG_5134ps2.jpg" /></a>
+            <a href="../Gallery/Landscape/IMG_6704.jpg" data-lightbox="image-11" data-title="working?"><img src="../Gallery/Landscape/IMG_6704.jpg" /></a>
+            <a href="../Gallery/Landscape/Rainier.jpg" data-lightbox="image-12" data-title="working?"><img src="../Gallery/Landscape/Rainier.jpg" /></a>
+            <a href="../Gallery/Landscape/_O7A7199.jpg" data-lightbox="image-13" data-title="working?"><img src="../Gallery/Landscape/_O7A7199.jpg" /></a>
+            <a href="../Gallery/Landscape/IMG_8267-3.jpg" data-lightbox="image-14" data-title="working?"><img src="../Gallery/Landscape/IMG_8267-3.jpg" /></a>
+            <a href="../Gallery/Landscape/IMG_9202.jpg" data-lightbox="image-15" data-title="working?"><img src="../Gallery/Landscape/IMG_9202.jpg" /></a>
+            <a href="../Gallery/Landscape/IMG_9798.jpg" data-lightbox="image-16" data-title="working?"><img src="../Gallery/Landscape/IMG_9798.jpg" /></a>
+            <a href="../Gallery/Landscape/IMG_9509.png" data-lightbox="image-17" data-title="working?"><img src="../Gallery/Landscape/IMG_9509.png" /></a>
+            <a href="../Gallery/Landscape/IMG_9814.jpg" data-lightbox="image-18" data-title="working?"><img src="../Gallery/Landscape/IMG_9814.jpg" /></a>
+            <a href="../Gallery/Landscape/thisOne.jpg" data-lightbox="image-19" data-title="working?"><img src="../Gallery/Landscape/thisOne.jpg" /></a>
+            <a href="../Gallery/Landscape/_O7A1452.jpg" data-lightbox="image-20" data-title="working?"><img src="../Gallery/Landscape/_O7A1452.jpg" /></a>
+            <a href="../Gallery/Landscape/_O7A3389-Edit.png" data-lightbox="image-21" data-title="working?"><img src="../Gallery/Landscape/_O7A3389-Edit.png" /></a>
+            <a href="../Gallery/Landscape/IMG_8406.jpg" data-lightbox="image-22" data-title="working?"><img src="../Gallery/Landscape/IMG_8406.jpg" /></a>
+            <a href="../Gallery/Landscape/IMG_9960.jpg" data-lightbox="image-23" data-title="working?"><img src="../Gallery/Landscape/IMG_9960.jpg" /></a>
+            <a href="../Gallery/City/_O7A9330.jpg" data-lightbox="image-24" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/City/_O7A9330.jpg" /></a>
+            <a href="../Gallery/City/_O7A9567.jpg" data-lightbox="image-25" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/City/_O7A9567.jpg" /></a>
+            <a href="../Gallery/City/26748632927_e0e13e8b47_o.jpg" data-lightbox="image-26" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/City/26748632927_e0e13e8b47_o.jpg" /></a>
+            <a href="../Gallery/City/IMG_0024.jpg" data-lightbox="image-27" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/City/IMG_0024.jpg" /></a>
+            <a href="../Gallery/City/IMG_0934.jpg" data-lightbox="image-28" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/City/IMG_0934.jpg" /></a>
+            <a href="../Gallery/City/IMG_1098.jpg" data-lightbox="image-29" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/City/IMG_1098.jpg" /></a>
+            <a href="../Gallery/City/IMG_2647.jpg" data-lightbox="image-30" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/City/IMG_2647.jpg" /></a>
+            <a href="../Gallery/City/IMG_6942.jpg" data-lightbox="image-31" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/City/IMG_6942.jpg" /></a>
+            <a href="../Gallery/City/IMG_6961-2.jpg" data-lightbox="image-32" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/City/IMG_6961-2.jpg" /></a>
+            <a href="../Gallery/City/Skyline.jpg" data-lightbox="image-33" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/City/Skyline.jpg" /></a>
+            <a href="../Gallery/Travel/_O7A1197.jpg" data-lightbox="image-34" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/Travel/_O7A1197.jpg" /></a>
+            <a href="../Gallery/Travel/_O7A1256.jpg" data-lightbox="image-35" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/Travel/_O7A1256.jpg" /></a>
+            <a href="../Gallery/Travel/_O7A3389-Edit.png" data-lightbox="image-36" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/Travel/_O7A3389-Edit.png" /></a>
+            <a href="../Gallery/Travel/_O7A3648.png" data-lightbox="image-37" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/Travel/_O7A3648.png" /></a>
+            <a href="../Gallery/Travel/8O7A0717.jpg" data-lightbox="image-38" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/Travel/8O7A0717.jpg" /></a>
+            <a href="../Gallery/Travel/24235643867_834b97c548_o.jpg" data-lightbox="image-39" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/Travel/24235643867_834b97c548_o.jpg" /></a>
+            <a href="../Gallery/Travel/43766360731_9f72b30153_o.jpg" data-lightbox="image-40" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/Travel/43766360731_9f72b30153_o.jpg" /></a>
+            <a href="../Gallery/Travel/IMG_1274.jpg" data-lightbox="image-41" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/Travel/IMG_1274.jpg" /></a>
+            <a href="../Gallery/Travel/IMG_1605.jpg" data-lightbox="image-42" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/Travel/IMG_1605.jpg" /></a>
+            <a href="../Gallery/Travel/IMG_3167.jpg" data-lightbox="image-43" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/Travel/IMG_3167.jpg" /></a>
+            <a href="../Gallery/Travel/IMG_3474-3.jpg" data-lightbox="image-44" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/Travel/IMG_3474-3.jpg" /></a>
+            <a href="../Gallery/Travel/IMG_4115.jpg" data-lightbox="image-45" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/Travel/IMG_4115.jpg" /></a>
+            <a href="../Gallery/Travel/IMG_8424.jpg" data-lightbox="image-46" data-title="Mt.Rainier from Volunteer Park"><img src="../Gallery/Travel/IMG_8424.jpg" /></a>
+            
         </div>
-    </div>
+    </section>
     
     <script src="../Javascript/lightbox-plus-jquery.min.js"></script>
 
-    <!-- <div id="1desc">
-        <h1>Rainier from afar</h1>
-        <h3>Taken from Discovery Park, Seattle, WA on April 25th, 2018</h2>
-        <p>I woke up early to catch the sunrise with my good friend Homer.</p>
-        <p>Placeholder text</p>
-        <p>Placeholder text</p>
-        <p>Placeholder text</p>
-        <p>Placeholder text</p>
-        <p>Placeholder text</p>
-        <p>Placeholder text</p>
-        <p>Placeholder text</p>
-    </div> -->
 </body>
