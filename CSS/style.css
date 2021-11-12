@@ -163,9 +163,11 @@ nav #pages {
     margin-top: 10px;
     width: auto;
     position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    text-decoration: none;
 }
 
 #name p {
@@ -229,7 +231,7 @@ nav #pages {
     }
 
     #socialmedia img {
-        width: 20%;
+
         height: auto;
     }
 
@@ -246,20 +248,19 @@ nav #pages {
     }
 
     #pages {
-        width: 70px;
+        width: 100%;
         text-align: center;
     }
 
     #name {
-        width: 100%;
-        background-color: black;
+        width: 100vw;
+        height: 40px;
         display: block;
         margin: auto;
         padding: auto;
         padding-bottom: 5px;
         font-size: 20px;
-        text-align: center;
-        justify-content: center;
+        position: relative;
     }
 
     #crtag {
@@ -294,4 +295,5 @@ nav #pages {
     .mainpageslsh li:nth-child(6) span { 
         background-image: url(../Gallery/Landscape/_O7A9538.jpg) 
     }
+
 }
