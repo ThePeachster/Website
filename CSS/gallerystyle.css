@@ -243,8 +243,8 @@ header {
     /* Gallery */
     .photos {
         margin-top: 10px;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 15px;
+        padding-right: 15px;
         line-height: 5;
         column-count: 1;
     }

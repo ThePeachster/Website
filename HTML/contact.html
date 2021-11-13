@@ -9,92 +9,91 @@
     <meta name="description" content="Personal website for Jason Peacher-Ton that hosts his
                                         photography" />
     <meta name="keywords" content="Photography, photographer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="../CSS/contactstyle.css" />
-    <link rel="icon" type="image/png" href="Camera-icon.png"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Jason Peacher-Ton Photography</title>
 </head>
 
 <body>
-    <!-- <div id="background">
-        <img src="../IMG_9357.jpg" />
-    </div> -->
+    <!--TODO change navigation to match home page-->
     <nav role="navigation">
-        <div id="name">
-            <p id="nametag">Jason Peacher-Ton Photography</p>
-            <p id="tag">Landscape, Travel, City</p>
-        </div>
-        <div id="socialmedia">
-            <a href="https://www.instagram.com/jasonpeacherton/">
-                <img src="../Logos/instagram-logo.png">
-            </a>
-            <a href="https://www.flickr.com/photos/139828152@N04/">
-                <img src="../Logos/flickr.png">
-            </a>
-            <a href="https://www.youtube.com/channel/UCFErWyMg_KisklFxcZ91i8A">
-                <img src="../Logos/youtube.png">
-            </a>
-            
-        </div>
-        <ul>
-            <li>
+        <div class="container"> 
+            <a href="index.html" id="nametag">Jason Peacher-Ton Photography</a>
+            <div id="pages">
                 <a href="contact.html">Contact</a>
-            </li>
-            <li>
-                <a href="blog.html">Blog</a>
-            </li>
-            <li>
                 <a href="#">Prints</a>
-            </li>
-            <li>
+                <a href="blog.html">Blog</a>
                 <a href="gallery.html">Gallery</a>
-            </li>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-        <ul>
-    </nav>
+            </div>
+
+            <div id="socialmedia">
+                <a href="https://www.instagram.com/jasonpeacherton/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.flickr.com/photos/139828152@N04/"><i class="fa fa-flickr" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/channel/UCFErWyMg_KisklFxcZ91i8A"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav> 
+
+    <h1>About Me</h1>
 
     <div id="about">
         <div id="me">
-            <h1>About me</h1>
-            <img src="../41730829821_0bdb443402_o.jpg">
+            <div>
+                <img id="mainimage" src="../41730829821_0bdb443402_o.jpg">
+                <p id="intro">
+                    Hey there!
+                    <br>
+                    <br>
+                    I'm Jason Peacher-Ton! I'm originally from Seattle, Washington, but I am currently living my life in Austin, Texas.
+                    I'm an Ultimate Frisbee player, Formula 1 addict, and an avid gamer and reader.
+                    <br>
+                    <br>
+                    My passion for photography began after a trip to Thailand. At the time, I thought they were extremely
+                    dope photos. They weren't, but I caught the bug, and I couldn't stop looking for compositions. It was only natural that
+                    my love for hiking and camping grew as well.
+                    My real education began when I discovered photographers such as Nick Page and Thomas Heaton, and proceeded to binge 
+                    all of their content on YouTube. The logical next step was to empty my savings to buy a ticket to Iceland during spring break
+                    and practice on the most photogenic landscape on earth.
+                </p>
+            </div>
+            <div>
+                <img id="cute" src="../43016574421_1b81c397fe_o.jpg"> 
+                <img id="hiking"src="../_O7A9941-2.jpg"> 
+            </div>
+            
             <p>
-                Hey there!
-                <br>
-                <br>
-                I'm Jason Peacher-Ton! Originally a Seattlite but currently living my life in Austin.
-                <br>
-                <br>
-                My passion for photography began after a trip to Thailand. At the time, I thought they were extremely
-                dope photos. They weren't. But I caught the bug, and I couldn't stop looking for compositions. 
-                Soon after that, I discovered photographers such as Nick Page and Thomas Heaton, and proceeded to binge 
-                all of their content on YouTube. The logical next step was to empty my savings to buy a ticket to Iceland during spring break of college
-                and practice on the most photogenic landscape on earth.
-                <br>
-                <br>
-                Since that Iceland trip, I've taken every opportunity to empty my meager college savings and travel. So far, I've traveled to eight
+                Since that Iceland trip, I've taken every opportunity to empty my savings and travel. So far, I've traveled to eight
                 countries and hoping to add a lot more to that list. My most recent trips took me to 16 National Parks, including Glacier,
-                Zion, Mt. Rainier, and Yosemite. I'm now working in a full-time position, which limits my free time but... at least I don't have to
-                scrounge for travel money anymore.
-                <br>
-                <br>
-                If you've gotten this far, I appreciate that you've taken the time to check out my work! Nothing makes me happier than having someone
-                interact with the photos that I've taken. Someday I would love to make photography a full-time job. But for now, I'll continue to practice
-                and improve. If you want to get in touch, shoot me an email! 
-                <br>
-                <br>
-                Thanks again, I hope you enjoy the site!
+                Zion, Mt. Rainier, and Yosemite. 
             </p>
+            <img id="package" src="../IMG_3951.jpg"> 
+            <p style="display:inline-block;">
+                I appreciate that you've taken the time to check out my work! Nothing makes me happier than having someone
+                interact with the photos that I've taken. 
+            </p>
+            
+            <p>
+                Thanks again, I hope you enjoy the site!
+            </p>    
+                
+            
         </div>
 
         <div id="contact">
             <h1>Contact</h1>
-            <p>Shoot me an email! jasonpeacherton@gmail.com</p>
+            <p style="font-size: 2em; vertical-align:middle;">Questions? Comments? Just want to say hi? Shoot me an email!</p>
+            <a href="mailto:jasonpeacherton@gmail.com">jasonpeacherton@gmail.com</a>
+            
         </div>
     </div>
 
-    <p id="crtag">All images on this website are subject to copyright by Jason Peacher-Ton 2019 &#169;</p>
-   
+    <script src="../Javascript/gallery.js"></script>
+
 </body>
 </html>

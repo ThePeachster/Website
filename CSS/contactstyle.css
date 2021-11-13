@@ -1,52 +1,42 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'EB Garamond', serif;
     font-size: 15px;
     margin: 0px;
-    color: white;
-    background: url(../IMG_9357.jpg) no-repeat center center fixed;
+    color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
 /* Nav Bar Section */
 nav {
     background-color: black;
-    color: white;
+    display: block;
     position: fixed;
     top:0;
     width: 100%;
+    z-index: 1000;
 }
 
-nav ul {
-    list-style-type: none;
-    display: inline;
-    padding:0px;
-    margin: 0px;
-    float: right;
+#nametag {
+    text-align: center;
 }
 
-nav li a {
-    margin-top: 15px;
+nav .menu {
+    font-size: 2.5em;
+    display: none;
+}
+
+#socialmedia {
+    font-size: 30px;
+}
+
+#socialmedia i, #socialmedia a {
     color: white;
-    text-decoration: none;
-}
-
-nav li a:hover {
-    color:grey;
-}
-
-nav li a:visited {
-    color: white;
-}
-
-nav ul li {
-    margin-top: 10px;
-    margin-right: 25px;
-    display: inline;
-    float: right;
-}
-
-#copyright {
-    position: relative;
+    padding: 10px;
 }
 
 #name {
@@ -97,46 +87,208 @@ nav ul li {
 }
 
 #about {
-    position: absolute;
+    position: relative;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     margin: auto;
     width: 70%;
-    height: 70%;
-    background-color: cornsilk;
+    height: auto;
     color: black;
 }
 
-#me {
-    width: 50%;
-    float: left;
-}
-
-#me h1 {
-    padding-left: 25px;
-    margin-bottom: 0;
+h1 {
+    display:block;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 #me img {
-    margin-left: 25px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-right: 25px;
+    margin: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#mainimage {
     width: 40%;
     height: auto;
     float: left;
 }
 
-#me p {
-    margin-left: 25px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-size: 17px;
+#hiking {
+    float: right;
+    width: 50%;
+}
+
+#cute {
+    width: 50%;
+    float: right;
+}
+
+#package {
+    width: 40%;
+    float: left;
+    padding: 0;
 }
 
 #contact {
-    width: 50%;
-    float: right;
+    display: block;
+    text-align: center;
+    
+}
+
+#contact a {
+    font-size: 2.5em;
+    margin: 50px;
+    padding-bottom: 100px;
+    color: black;
+}
+
+#me p {
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    padding: 20px;
+}
+
+@media screen and (min-width: 800px) {
+    /* Navigation */
+    #nametag {
+        display: inline;
+        color: white;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        width: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.5em;
+        text-decoration: none;
+    }
+
+    #nametag:hover {
+        color:white;
+        text-decoration: underline;
+    }
+
+    #pages {
+        display: block;
+        float: right;
+        color: white;
+        padding: 15px;
+    }
+    #pages a {
+        float: right;
+        color: white;
+        padding-left: 25px;
+        text-decoration: none;
+    }
+
+    #pages a:hover {
+        text-decoration: underline;
+    }
+
+    #tag {
+        vertical-align: center;
+    }
+
+    #socialmedia {
+        display: inline;
+        margin: auto;
+        float: left;
+        margin-left: 20px;
+    }
+
+    #socialmedia a:visited {
+        text-decoration: none;
+    }
+
+    #socialmedia img {
+        display: inline;
+        margin-top: 10px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    .container a.icon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+    /* Navigation Bar */
+    .container {
+        position: relative;
+        font-size: 1.5em;
+        height: auto;
+    }
+
+    #nametag {
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 1em;
+        
+    }
+
+    #nametag a {
+        height: 60px;
+    }
+
+    #nametag:hover {
+        color: white;
+        text-decoration: underline;
+    }
+
+    #pages, #socialmedia {
+        display: none;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #socialmedia img {
+        display: inline;
+        height: 30px;
+    }
+
+    #pages a {
+        padding: 20px;
+        font-size: 2em;
+    }
+
+    #pages a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+
+    .container a {
+        display: block;
+        text-decoration: none;
+        color: white;
+    }
+
+    .container a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: white;
+        padding-top: 5px;
+        padding-right: 10px;
+    }
+
+    #about {
+        margin: 50px;
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+
 }
