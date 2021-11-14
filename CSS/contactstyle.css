@@ -19,6 +19,7 @@ nav {
     top:0;
     width: 100%;
     z-index: 1000;
+    height: auto;
 }
 
 #nametag {
@@ -52,6 +53,12 @@ nav .menu {
 #name p {
     margin: 0;
     padding: 0px;
+}
+
+#nametag img {
+    margin: auto;
+    width: 20%;
+    height: auto;
 }
 
 #tag {
@@ -170,6 +177,12 @@ h1 {
         text-decoration: none;
     }
 
+    #nametag img {
+        margin: auto;
+        width: 30%;
+        height: auto;
+    }
+
     #nametag:hover {
         color:white;
         text-decoration: underline;
@@ -280,6 +293,7 @@ h1 {
         color: white;
         padding-top: 5px;
         padding-right: 10px;
+        font-size: 30px;
     }
 
     #about {

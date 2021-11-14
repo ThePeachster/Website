@@ -25,6 +25,12 @@ nav {
     text-align: center;
 }
 
+#nametag img {
+    margin: auto;
+    width: 80%;
+    height: auto;
+}
+
 nav .menu {
     font-size: 2.5em;
     display: none;
@@ -125,7 +131,7 @@ header {
         color: white;
         margin-top: 5px;
         margin-bottom: 15px;
-        width: auto;
+        width: 200px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -195,6 +201,12 @@ header {
         
     }
 
+    #nametag img {
+        margin: auto;
+        width: 30%;
+        height: auto;
+    }
+
     #nametag a {
         height: 60px;
     }
@@ -238,6 +250,7 @@ header {
         top: 0;
         color: white;
         padding-top: 5px;
+        font-size: 30px;
     }
 
     /* Gallery */

@@ -135,6 +135,13 @@ nav #pages {
     display: inline-block
 }
 
+#name img {
+    margin: 10px;
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
 #pages a {
     margin-top: 15px;
     color: white;
@@ -161,18 +168,14 @@ nav #pages {
     text-align: center;
     color: white;
     margin-top: 10px;
-    width: auto;
+    width: 300px;
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1.5em;
     text-decoration: none;
-}
-
-#name p {
-    margin: 0;
-    float: none;
+    margin-top: 10px;
 }
 
 #tag {
@@ -180,24 +183,26 @@ nav #pages {
 }
 
 #socialmedia {
-    display: inline-block;
-    margin: 0 auto;
-    float:left;
-    margin-left: 20px;
+    font-size: 30px;
+}
+
+#socialmedia i, #socialmedia a {
+    color: white;
+    padding: 10px;
 }
 
 #socialmedia a:visited {
     text-decoration: none;
 }
 
-#socialmedia img {
-    display: inline;
-    margin-top: 10px;
-    margin-right: 20px;
-    text-align: center;
-}
-
 @media screen and (max-width: 800px) {
+    #nametag img {
+        margin: 10px;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    
     .container {
         position: fixed;
         width: 100%;
@@ -253,14 +258,19 @@ nav #pages {
     }
 
     #name {
-        width: 100vw;
-        height: 40px;
         display: block;
         margin: auto;
         padding: auto;
         padding-bottom: 5px;
-        font-size: 20px;
         position: relative;
+        text-align: center;
+        height: auto;
+    }
+
+    #name img {
+        margin: auto;
+        width: 80%;
+        height: auto;
     }
 
     #crtag {
