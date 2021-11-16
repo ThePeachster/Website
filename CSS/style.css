@@ -39,27 +39,27 @@ body {
 }
 
 .mainpageslsh li:nth-child(1) span { 
-    background-image: url(../Gallery/City/IMG_6961-2.jpg) 
+    background-image: url(../Portfolio/City/IMG_6961-2.jpg) 
 }
 
 .mainpageslsh li:nth-child(2) span { 
-    background-image: url(../Gallery/Landscape/IMG_0204.jpg) 
+    background-image: url(../Portfolio/Landscape/IMG_0204.jpg) 
 }
 
 .mainpageslsh li:nth-child(3) span { 
-    background-image: url(../Gallery/Landscape/IMG_6704.jpg) 
+    background-image: url(../Portfolio/Landscape/IMG_6704.jpg) 
 }
 
 .mainpageslsh li:nth-child(4) span { 
-    background-image: url(../Gallery/City/Skyline.jpg) 
+    background-image: url(../Portfolio/City/Skyline.jpg) 
 }
 
 .mainpageslsh li:nth-child(5) span { 
-    background-image: url(../Gallery/Landscape/IMG_9798.jpg) 
+    background-image: url(../Portfolio/Landscape/IMG_9798.jpg) 
 }
 
 .mainpageslsh li:nth-child(6) span { 
-    background-image: url(../Gallery/Travel/IMG_1605.jpg) 
+    background-image: url(../Portfolio/Travel/IMG_1605.jpg) 
 }
 
 .mainpageslsh li:nth-child(2) span { 
@@ -279,27 +279,27 @@ nav #pages {
     }
 
     .mainpageslsh li:nth-child(1) span { 
-        background-image: url(../Gallery/Landscape/O7A3563-1.jpg) 
+        background-image: url(../Portfolio/Landscape/O7A3563-1.jpg) 
     }
     
     .mainpageslsh li:nth-child(2) span { 
-        background-image: url(../Gallery/Landscape/IMG_9814.jpg) 
+        background-image: url(../Portfolio/Landscape/IMG_9814.jpg) 
     }
     
     .mainpageslsh li:nth-child(3) span { 
-        background-image: url(../Gallery/Landscape/Rainier.jpg) 
+        background-image: url(../Portfolio/Landscape/Rainier.jpg) 
     }
     
     .mainpageslsh li:nth-child(4) span { 
-        background-image: url(../Gallery/Landscape/IMG_8951-2.jpg) 
+        background-image: url(../Portfolio/Landscape/IMG_8951-2.jpg) 
     }
     
     .mainpageslsh li:nth-child(5) span { 
-        background-image: url(../Gallery/Landscape/IMG_9202.jpg) 
+        background-image: url(../Portfolio/Landscape/IMG_9202.jpg) 
     }
     
     .mainpageslsh li:nth-child(6) span { 
-        background-image: url(../Gallery/Landscape/O7A9538.jpg) 
+        background-image: url(../Portfolio/Landscape/O7A9538.jpg) 
     }
 
 }
