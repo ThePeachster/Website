@@ -43,7 +43,6 @@ body {
 }
 
 .mainpageslsh li:nth-child(2) span { 
-    /*NOTE: CLEAN UP IMAGE*/
     background-image: url(../Gallery/Landscape/IMG_0204.jpg) 
 }
 
@@ -56,12 +55,10 @@ body {
 }
 
 .mainpageslsh li:nth-child(5) span { 
-    /*NOTE: CLEAN UP IMAGE*/
     background-image: url(../Gallery/Landscape/IMG_9798.jpg) 
 }
 
 .mainpageslsh li:nth-child(6) span { 
-    /*NOTE: CLEAN UP IMAGE*/
     background-image: url(../Gallery/Travel/IMG_1605.jpg) 
 }
 
