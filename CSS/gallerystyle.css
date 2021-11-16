@@ -195,10 +195,8 @@ header {
 
     #nametag {
         text-align: center;
-        padding-top: 5px;
-        padding-bottom: 5px;
         font-size: 1em;
-        
+        padding-bottom: 5px;
     }
 
     #nametag img {
