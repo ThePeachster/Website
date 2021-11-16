@@ -19,6 +19,7 @@ nav {
     top:0;
     width: 100%;
     z-index: 1000;
+    height: auto;
 }
 
 #nametag {
@@ -217,7 +218,7 @@ header {
     #pages, #socialmedia {
         display: none;
         text-align: center;
-        padding: 20px;
+        padding-bottom: 20px;
     }
 
     #socialmedia img {

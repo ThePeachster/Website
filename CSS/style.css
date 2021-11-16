@@ -210,7 +210,7 @@ nav #pages {
     .center {
         margin: 0;
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
@@ -232,7 +232,6 @@ nav #pages {
     }
 
     #socialmedia img {
-
         height: auto;
     }
 
@@ -254,11 +253,11 @@ nav #pages {
     }
 
     #name {
-        display: block;
+        position: absolute;
+        top: -10%;
+        left: 50%;
         margin: auto;
-        padding: auto;
         padding-bottom: 5px;
-        position: relative;
         text-align: center;
         height: auto;
     }
